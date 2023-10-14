@@ -1,0 +1,132 @@
+/* CSS Settings for Westhills Driving School */
+	/* Default HTML CSS Settings */
+	html {
+		font-family: "Palatino Linotype", sans-serif;
+		background: #FFFFF0;
+	}
+
+	/* Border and Padding included in total width and height of elements */
+	* {
+		box-sizing: border-box;
+		border-spacing: 0px;
+	}
+
+	/* Row settings */
+	.row {
+		border: 0px dotted green;
+		width: 100%;
+	}
+	.row::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	/* Common Settings for Grid */
+	[class*="col-"] {
+		float: left;
+		padding: 2.5%;
+		border: 0px solid red;
+	}
+
+	/* Grid Layout */
+	.col-1  { 
+		width: 5%;
+		height:inherit;
+	}
+	.col-2  { 
+		width: 10%; 
+		height:inherit;
+	}
+	.col-3  { 
+		width: 15%; 
+		height:inherit;
+	}
+	.col-4  { 
+		width: 20%; 
+		height:inherit;/
+	}
+	.col-5  { 
+		width: 25%;  
+		height:inherit;
+	}
+	.col-6  { 
+		width: 30%;  
+		height:inherit;
+	}
+	.col-7  { 
+		width: 35%;  
+		height:inherit;
+	}
+	.col-8  { 
+		width: 40%;  
+		height:inherit;
+	}
+	.col-9  { 
+		width: 45%;  
+		height:inherit;
+	}
+	.col-10 { 
+		width: 50%;  
+		height:inherit;
+	}
+	.col-11 { 
+		width: 55%;  
+		height:inherit;
+	}
+	.col-12 { 
+		width: 60%;  
+		height:inherit;
+	}
+	.col-13 { 
+		width: 65%;  
+		height:inherit;
+	}
+	.col-14 { 
+		width: 70%;  
+		height:inherit;
+	}
+	.col-15 { 
+		width: 75%;  
+		height:inherit;
+	}
+	.col-16 { 
+		width: 80%;  
+		height:inherit;
+	}
+	.col-17 { 
+		width: 85%;  
+		height:inherit;
+	}
+	.col-18 { 
+		width: 90%;  
+		height:inherit;
+	}
+	.col-19 { 
+		width: 95%;  
+		height:inherit;
+	}
+	.col-20 { 
+		width: 100%;  
+		height:inherit;
+	}
+	#header {
+		background: white; /* linear-gradient(#800000,#80000A); */
+		max-height: 90px;
+		border-radius: 2px 2px 0px 0px;
+		border-bottom: 1px solid gray;
+		
+	}
+	
+	#headlogo {
+		max-height: inherit;
+		border: 0px solid green;
+	}
+	img {
+		max-height: inherit;
+		border: 0px solid red;
+	}
+	/* Remove padding, if any */
+	.nopadding {
+		padding: 0px;
+	}
